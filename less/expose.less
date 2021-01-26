@@ -53,7 +53,7 @@
 		.rotateY(0deg);
 		padding: 0;
 		text-align: center;
-		color: @primary-color-inverted;
+		color: @font-color-inverted;
 
 		.text {
 			position: relative;
@@ -80,13 +80,13 @@
 		}
 
 		.front {
-			background: @primary-color;
+			background: @blue;
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
 		}
 
 		.back {
-			background: darken(@primary-color, 10%);
+			background: darken(@blue, 10%);
 		}
 
 		&.fade {
@@ -135,11 +135,11 @@
 }
 
 .expose-item-content {
-	background: @primary-color-inverted;
+	background: @font-color-inverted;
 
 	.expose-item-title {
 		padding: 20px;
-		background: @secondary-color;
+		background: @blueDark;
 		color: #ffffff;
 	}
 
